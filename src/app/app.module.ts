@@ -7,9 +7,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { MusicaComponent } from './components/musica/musica.component';
 import { CineComponent } from './components/cine/cine.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, MusicaComponent, CineComponent],
+  declarations: [AppComponent, HomeComponent, MusicaComponent, CineComponent, MenuComponent, NotfoundComponent],
   imports: [BrowserModule, routing],
   providers: [appRoutingProvider],
   bootstrap: [AppComponent],
